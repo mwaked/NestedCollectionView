@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (5.2.2)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - ImageSlideshow (1.9.2):
+    - ImageSlideshow/Core (= 1.9.2)
+  - ImageSlideshow/Alamofire (1.9.2):
+    - AlamofireImage (~> 4.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.9.2)
+
+DEPENDENCIES:
+  - ImageSlideshow (~> 1.9.0)
+  - ImageSlideshow/Alamofire
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - ImageSlideshow
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+
+PODFILE CHECKSUM: faa9a7ba5ca582eb6894cdf2bc28008aeb9a7573
+
+COCOAPODS: 1.10.0
