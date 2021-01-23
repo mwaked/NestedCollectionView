@@ -59,6 +59,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             let vc = (self.storyboard?.instantiateViewController(withIdentifier: "SectionViewController"))! as! SectionViewController
             vc.view.frame = cell.bounds
             vc.listOfItems = homeData?.sections[indexPath.row - 1] ?? []
+            self.addChild(vc)
             cell.addSubview(vc.view)
             
             return cell
